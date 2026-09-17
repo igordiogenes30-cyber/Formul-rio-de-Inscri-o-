@@ -1,0 +1,42 @@
+body{
+  display: flex; /*Layout flexbox no body*/
+  flex-direction: column; /*elementos filhos em coluna(abaixo do outro)*/
+  justify-content: center; /*centraliza elementos verticalmente (eixo principal)*/
+  align-items: center; /*centraliza elementos horizontalmente (eixo cruzado)*/
+  padding: 25px; /*Espaçamento*/
+}
+form{
+  display: flex; /*Flexbox dentro do formulario*/
+  flex-direction: column; /*Campo do formulario em coluna*/
+  justify-content: center; /*centraliza os campo verticalmente*/
+  align-items: center; /*centraliza o campo horizontalmente*/
+  gap: 20px; /*Espaço de cada campo*/
+}
+div{
+  padding: 30px; /*Espaço na div que envolve o formulario*/
+  border: 1px solid black; /*Borda preta ao redor da div*/
+}
+
+h2{
+  border: 1px solid black; /*Borda preta ao redor do elemento (nome digitado*/
+  padding: 10px; /*Espaçamento interno*/
+}
+
+h3{
+  border: 1px solid black; /*Borda preta ao redor do elemento*/
+  padding: 10px ; /*Espaçamento interno*/
+}
+
+h4{
+  border: 1px solid black; /*Borda preta ao redor do elemento*/
+  padding: 10px;
+}
+
+h5{
+  border: 1px solid black; /*Borda preta ao redor do elemento*/
+  padding: 10px;
+}
+
+.title {
+  color: rgb(250, 242, 215); /*Branco*/
+}

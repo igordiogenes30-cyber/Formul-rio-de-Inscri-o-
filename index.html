@@ -1,0 +1,25 @@
+<!DOCTYPE html> <!--Declara oq é documentado -->
+<html lang="pt-br"> <!--Idioma-->
+<head>
+  <title>Formulário</title> <!--Título na aba do navegador-->
+  <link rel="stylesheet" href="style.css"> <!--Conecta com o CSS-->
+</head>
+<body>
+   <div>
+    <h1 class="title">FORMULÁRIO</h1> <!--Título Principal-->
+    <form action="" method="get" accept-charset="utf-8"> <!--Envio de dados via GET-->
+      <input type="text" name="" id="text" value="" placeholder="Digite seu Nome Completo"/> <!--CAMPOS PARA DADOS-->
+      <input type="email" name="" id="email" value="" placeholder="Digite seu email"/>
+      <input type="number" name="" id="number" value="" placeholder="Digite seu número"/>
+      <input type="date" name="" id="date" value="" placeholder="Digite sua data de nascimento"/>
+      <button type="button" id="botao">ENVIE</button> <!--BOTAO DE FORMULARIO-->
+    </form>
+  </div>
+     <h2 id="textinsert"></h2> <!--Usado via JS, para exibir texto-->
+     <h3 id="emailinsert"></h3> <!--Usado via JS, para exibir email-->
+     <h4 id="numberinsert"></h4> <!--Usado via JS, para exibir numero-->
+     <h5 id="dateinsert"></h5>
+
+     <script src="script.js"></script> <!--Importa o js para exibir valores-->
+ </body>
+</html>
